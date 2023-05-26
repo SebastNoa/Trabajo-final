@@ -1,0 +1,5 @@
+Profesora, por favor instale lo siguiente cuando le ponga su módulo. Ya que no nos permite subir el nuestro.
+
+npm install react-icons --save
+npm install react-router-dom
+npm install bootstrap
