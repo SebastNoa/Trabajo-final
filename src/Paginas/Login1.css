@@ -1,0 +1,104 @@
+
+.Sistema{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.form{
+  background-color: white;
+  width: 500px;
+  border-radius: 8px;
+  padding: 20px 40px;
+  box-shadow: 0 10px 25px rgba(92, 99, 105, .2);
+}
+.titulo{
+  line-height: 2; /* Establece el interlineado a 1.5 veces el tamaño de la fuente */
+  color: black;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  font-size: medium;
+  margin: 60px;
+  padding: 10px;
+  font-size: 25px;
+}
+.Contenedor{
+  position: relative;
+  height: 50px;
+  width: 90%;
+  margin-bottom: 30px;
+}
+.texto {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  border: 1px solid #DADCE0;
+  border-radius: 7px;
+  font-size: 16px;
+  padding: 0 20px;
+  outline: none;
+  background: none;
+  z-index: 1;
+}
+.label {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  padding: 0 4px;
+  background-color: white;
+  color: #DADCE0;
+  font-size: 16px;
+  transition: 0.5s;
+  z-index: 0;
+}
+.debajo{
+  color: blueviolet;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  font-size: 12px;
+
+}
+.botones{
+  text-align: right;
+  margin-top: 30px;
+  border: none;
+  
+}
+.boton {
+  position: relative;
+  display: inline-block; /* Muestra los botones en línea */
+  background-color: rgb(218, 217, 217); /* Establece el color de fondo plomo */
+  color: blueviolet; /* Establece el color de texto en blanco */
+  padding: 10px 20px; /* Agrega espacios de 10 píxeles arriba/abajo y 20 píxeles izquierda/derecha */
+  border: none; /* Elimina el borde del botón */
+  border-radius: 4px; /* Agrega bordes redondeados al botón */
+  margin-right: 15px;
+  font-weight: bold;
+  left: -20px; 
+}
+.boton:hover {
+  background-color: whitesmoke;
+  transform: translateY(-2px);
+}
+
+.texto:focus + .texto {
+  top: -7px;
+  left: 3px;
+  z-index: 10;
+  font-size: 14px;
+  font-weight: 500;
+  color: purple;
+}
+.texto:focus {
+  border: 2px solid purple;
+}
+.texto:focus+ .label {
+  top: -7px;
+  left: 3px;
+  z-index: 10;
+  font-size: 14px;
+  font-weight: 600;
+  color: purple;
+}

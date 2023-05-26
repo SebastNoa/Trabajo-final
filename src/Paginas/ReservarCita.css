@@ -1,0 +1,44 @@
+.person-card {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    left: 20%;
+  }
+  
+  .person-card h3 {
+    margin: 0;
+  }
+  
+  .person-card p {
+    margin: 0;
+    color: #888;
+  }
+  
+  input[type="text"] {
+    position: relative;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+    left: 20%;
+  }
+  
+  button {
+    position: relative;
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    left: 20%;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
